@@ -1,0 +1,138 @@
+{
+  "version": "6.0",
+  "nxVersion": "18.1.3",
+  "deps": {
+    "@nx/eslint": "18.1.3",
+    "@nx/vite": "18.1.3",
+    "eslint": "~8.48.0",
+    "nx": "18.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "package.json",
+        "hash": "2927084125772141421"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "97589535971068915"
+      },
+      {
+        "file": ".nx/cache/file-map.json",
+        "hash": "2653719228609632719"
+      },
+      {
+        "file": ".nx/cache/nx_files.nxt",
+        "hash": "17399154523348211524"
+      },
+      {
+        "file": ".nx/cache/d/server-process.json",
+        "hash": "11042401625111238688"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1025739210934058173"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "7340518888339138208"
+      },
+      {
+        "file": ".git/FETCH_HEAD",
+        "hash": "13636833167162759655"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "3138429054594427183"
+      }
+    ],
+    "projectFileMap": {
+      "react-state-management": [
+        {
+          "file": "react-state-management/.editorconfig",
+          "hash": "7752815952816436470"
+        },
+        {
+          "file": "react-state-management/.eslintrc.cjs",
+          "hash": "193167108950316444"
+        },
+        {
+          "file": "react-state-management/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "react-state-management/.npmrc",
+          "hash": "7821536382954013223"
+        },
+        {
+          "file": "react-state-management/.nvmrc",
+          "hash": "10978719510302367668"
+        },
+        {
+          "file": "react-state-management/README.md",
+          "hash": "17496383698429813037"
+        },
+        {
+          "file": "react-state-management/index.html",
+          "hash": "7575831410758623410"
+        },
+        {
+          "file": "react-state-management/package.json",
+          "hash": "7974629769651928547",
+          "deps": [
+            "npm:eslint"
+          ]
+        },
+        {
+          "file": "react-state-management/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "react-state-management/src/App.css",
+          "hash": "4159928478582648838"
+        },
+        {
+          "file": "react-state-management/src/App.jsx",
+          "hash": "12936518258556432952"
+        },
+        {
+          "file": "react-state-management/src/Todo.jsx",
+          "hash": "11878240657372165359"
+        },
+        {
+          "file": "react-state-management/src/TodoContext.jsx",
+          "hash": "9071179318341075186"
+        },
+        {
+          "file": "react-state-management/src/TodoForm.jsx",
+          "hash": "7814430958377500303"
+        },
+        {
+          "file": "react-state-management/src/TodoReducer.js",
+          "hash": "6482031119275675692"
+        },
+        {
+          "file": "react-state-management/src/assets/react.svg",
+          "hash": "16069471864800376455"
+        },
+        {
+          "file": "react-state-management/src/main.jsx",
+          "hash": "9197466161371993311"
+        },
+        {
+          "file": "react-state-management/vite.config.js",
+          "hash": "7008402861428644331"
+        }
+      ]
+    }
+  }
+}
