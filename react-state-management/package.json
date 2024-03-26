@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "nx lint --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,8 +25,5 @@
   },
   "engines": {
     "node": ">=20.0.0"
-  },
-  "nx": {
-    "includedScripts": []
   }
 }
